@@ -46,3 +46,7 @@ export interface UserFormData {
     tags?: string[];
     metadata?: Record<string, unknown>;
 }
+
+export interface UsersResponse {
+    data: User[];
+}
